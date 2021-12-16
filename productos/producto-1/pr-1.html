@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Articles</title>
+    <link rel="stylesheet" href="../productos-css/btrp-style.css">
+    <link rel="shortcut icon" href="../logo-pagina/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../productos-css/pr-style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navMenu navbar navbar-expand-lg navbar-light bg-light sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./logo-pagina/logo.png" alt="" width="50" height="auto">
+            </a>
+            <a class="navbar-brand" href="#">Electronic Articles</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link btn btn-outline-dark ms-2 nav-color" href="#productos">productos</a>
+                <a class="nav-link btn btn-outline-dark ms-2 nav-color" href="#destacado">destacado</a>
+                <a class="nav-link btn btn-outline-dark ms-2 nav-color" href="#contacto">contacto</a>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+      </header>
+    <hr>
+    <main>
+        <div class="card mb-3" id="producto" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./monitor-1.jpeg"  class="img-fluid rounded-start" alt=".monitor">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Monitor Gamer Curvo Samsung C24F390FH LED 24 "</h5>
+                  <p class="card-text"><h3>Formas de Pago:</h3>
+                    <input class="efectivo" type="radio" name="forma-de-pago" value="efectivo" >
+                    <label for="efectivo">Efectivo</label>
+                    <br>
+                    <input type="radio" name="forma-de-pago" value="tarjeta">
+                    <label for="tarjeta">Tarjeta de Credito</label>
+                    <h2>$25.000</h2></p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/5bm4_OO-pD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="caracteristicas">
+            <h2>Caracteristicas</h2>
+            <p>Curvatura de Pantalla: 1800R</p>    
+            <p>Relación de aspecto: 16:9</p>     
+            <p>Brillo (Normal): 250cd/m2</p> 
+            <p>Relación de contraste estático: 3,000:1(Typ)</p>
+            <p>Resolución: 1920 x 1080</p>
+            <p>Tiempo de Respuesta: 4(GTG)</p>
+        </div>
+            <div class="container">
+                <h2 id="contacto">Formulario de Contacto:</h2>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+            
+                <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu Nombre">
+                </div>
+            
+                <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Numero de Telefono</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ej: +54-11-2345-6789">
+                </div>
+            
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu Mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+                  <br>
+                <div class="contacto">
+                    <a href="https://www.whatsapp.com"><img src="../iconos/wpp.png" alt="whatsapp" class="imag-contacto"></a>
+                    <a href="#"><img src="../iconos/teleph.png" alt="telefono" class="imag-contacto"></a>
+                    <a href="https://www.instagram.com"><img src="../iconos/insta.png" alt="instagram" class="imag-contacto"></a>
+                    <a href="https://www.facebook.com"><img src="../iconos/faceb.png" alt="facebook" class="imag-contacto"></a>
+                    <a href="https://www.googlemaps.com"><img src="../iconos/ubi.png" alt="ubicacion" class="imag-contacto"></a>
+                    <a href="https://www.twitter.com"><img src="../iconos/twttr.png" alt="twitter" class="imag-contacto"></a>
+                </div>
+            </div>
+        <hr>
+        <footer>
+            <p>Electronic Articles &copy;2021</p>
+        </footer>
+</body>
+</html>

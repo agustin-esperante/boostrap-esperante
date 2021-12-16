@@ -1,0 +1,39 @@
+/* producto */
+.row{
+  display: inline-flex;
+}
+
+.producto-img{
+  text-align: center;
+  display: inline-flex;
+  width: 60%;
+  margin: 30px;
+  border: 5px solid rgb(160, 130, 70);
+}
+
+.btn-comprar{
+  background-image: linear-gradient( to left ,black, rgb(24, 24, 24) );
+  color: rgb(255, 255, 255);
+  border: outset rgb(160, 130, 70);
+  margin: 15px 0px;
+  width: 40%;
+  height: 15%;   
+}
+
+.btn-comprar:hover{
+  background-image: linear-gradient( to left ,rgb(160, 160, 160) ,white );
+  color: rgb(0, 0, 0);
+  border: inset rgb(160, 130, 70);
+}
+
+.video{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%; 
+  height: 500px;
+}
+
+.caracteristicas{
+  text-align: center;
+  color: white;
+}

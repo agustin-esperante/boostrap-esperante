@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient( to left, rgb(24, 24, 24) ,black );
+}
+
+.navMenu {
+    background-image: linear-gradient( to left,black, rgb(255, 255, 255) );
+}
+
+.carrusel{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.tarjeta{
+    align-items: center;
+}
+
+.imag{
+    width: 40%;
+}
+
+.paginas ul li{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+#contacto{
+    text-align: center;
+    color: white;
+}
+
+.contacto{
+    text-align: center;
+}
+
+.imag-contacto{
+    width: 5%;
+    height: auto;
+    background-color: white;
+    border-radius: 50px;
+} 
+
+footer{
+    text-align: center;
+    color: white;
+}
